@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Promethea Station — Luka Pejic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="../index.html" class="nav__logo"><img src="../assets/logo.png" alt="Luka Pejic"></a>
+    <ul class="nav__links">
+      <li><a href="../index.html#work" class="active">Projects</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav__overlay" role="dialog" aria-modal="true">
+    <a href="../index.html#work">Projects</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════════════
+       HERO
+  ════════════════════════════════════════════════════ -->
+  <header class="project-hero">
+    <img class="project-hero__img"
+         src="../assets/p/hero.png"
+         alt="Promethea Station orbiting Earth">
+    <div class="project-hero__overlay"></div>
+    <div class="project-hero__content">
+      <p class="project-hero__eyebrow">HB2 — Orbital Shift &nbsp;·&nbsp; Space Architecture Studio</p>
+      <h1 class="project-hero__title">Promethea<br>Station</h1>
+      <div class="project-hero__meta">
+        <span>Beliz Bayraktar</span>
+        <span>Christopher Egg</span>
+        <span>Luka Pejic</span>
+        <span>Low Earth Orbit</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════════
+         INTRO + STATS
+    ════════════════════════════════════════════════════ -->
+    <div class="section">
+      <div class="container">
+        <div class="project-identity reveal" style="display:flex; align-items:center; gap:20px; margin-bottom:36px;">
+          <img src="../assets/p/promethea_logo.png" alt="Promethea Station" style="height:56px; width:auto;">
+          <a href="../index.html#work" class="back-link" style="margin:0;">← All Projects</a>
+        </div>
+
+        <div class="split reveal">
+          <div>
+            <p class="label" style="margin-bottom:16px;">Orbital Station · LEO · 2025</p>
+            <h2 style="margin-bottom:24px;">A successor to the ISS built to validate artificial gravity and closed-loop life support.</h2>
+          </div>
+          <div>
+            <p style="margin-bottom:1.4em;">Promethea Station is a modular platform in low Earth orbit designed to bridge the gap between the ISS and the demands of long-duration deep-space missions. It rotates to generate Martian-equivalent gravity while running a fully closed biological life support system — the two technologies most critical to a crewed Mars transit.</p>
+            <p>A commercial sector accommodates short-stay visitors, generating the revenue that sustains the research mission. The station reaches its final configuration after six Starship launches across four vehicle variants and three assembly phases.</p>
+          </div>
+        </div>
+
+        <!-- Stats grouped by system -->
+        <div class="stats-group reveal" style="margin-top:56px;">
+
+          <div class="stats-group__label">
+            <span class="label">Station — General</span>
+          </div>
+          <div class="stats">
+            <div class="stat"><div class="stat__val">12</div><div class="stat__key">Capacity — 8 crew, 4 tourists</div></div>
+            <div class="stat"><div class="stat__val">6</div><div class="stat__key">Starship launches</div></div>
+          </div>
+
+          <div class="stats-group__label" style="margin-top:2px;">
+            <span class="label">Space Crusader — Habitation Module</span>
+          </div>
+          <div class="stats">
+            <div class="stat"><div class="stat__val">10.8 m</div><div class="stat__key">Rotation radius</div></div>
+            <div class="stat"><div class="stat__val">0.38 g</div><div class="stat__key">Martian gravity</div></div>
+            <div class="stat"><div class="stat__val">5.6 rpm</div><div class="stat__key">Rotation rate</div></div>
+          </div>
+
+          <div class="stats-group__label" style="margin-top:2px;">
+            <span class="label">ICELSS — Closed-Loop Life Support</span>
+          </div>
+          <div class="stats">
+            <div class="stat"><div class="stat__val">40 m²</div><div class="stat__key">Growing area per person</div></div>
+            <div class="stat"><div class="stat__val">2,500</div><div class="stat__key">kcal target / person / day</div></div>
+            <div class="stat"><div class="stat__val">4</div><div class="stat__key">Crew members per ICELSS unit</div></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════
+         01 — MISSION
+    ════════════════════════════════════════════════════ -->
+    <section class="section">
+      <div class="container">
+        <div class="sec-head reveal"><span class="label">01</span><h2>Mission</h2></div>
+        <div class="split reveal">
+          <div>
+            <p style="margin-bottom:1.2em;">Promethea Station addresses the two most critical unknowns of human deep-space travel: what sustained partial gravity does to the body over years, and whether biological systems can replace resupply chains entirely.</p>
+            <p>By rotating at 5.6 rpm to simulate 0.38g at the habitat floor — equivalent to Martian surface gravity — the station becomes a long-duration testbed for crew physiology before any Mars transit is attempted. The four ICELSS greenhouse modules provide a fully closed loop of oxygen, water, and food per crew unit, eliminating dependence on Earth resupply for those basic necessities.</p>
+          </div>
+          <div>
+            <p style="margin-bottom:1.2em;">The commercial sector is not decorative. Four short-stay tourism berths generate the operational funding that makes the research mission financially viable — a deliberate design constraint that shaped the station's modular structure.</p>
+            <p>Promethea is designed to remain operational for a minimum of 20 years, with modules replaceable on-orbit via Starship cargo flights. It is intended as the operational predecessor to any permanent Martian habitat: every system it tests is a system that Mars will require.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         02 — LAUNCH & ASSEMBLY (void)
+    ════════════════════════════════════════════════════ -->
+    <div class="void">
+      <div class="container">
+        <div class="sec-head reveal"><span class="label" style="color:var(--vmuted);">02</span><h2>Launch &amp; Assembly</h2></div>
+        <p class="reveal" style="max-width:62ch; margin-bottom:40px;">Six Starship launches across four vehicle variants (V1–V4) deliver the station in three assembly phases. Each phase adds structural, habitation, and life-support capacity. The matrix below shows the progression: columns represent assembly phases, rows represent vehicle variants carrying progressively larger payloads.</p>
+      </div>
+
+      <!-- Launch matrix: full composed diagram -->
+      <div class="launches-full reveal">
+        <img src="../assets/p/launches_full.jpg"
+             alt="Launch &amp; Assembly Matrix — Phase I/II/III × V1–V4" loading="lazy">
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════
+         03 — STATION OVERVIEW (void)
+    ════════════════════════════════════════════════════ -->
+    <div class="void" style="padding-top:0;">
+      <div class="container" style="padding-top:64px;">
+        <div class="sec-head reveal"><span class="label" style="color:var(--vmuted);">03</span><h2>Station Overview</h2></div>
+        <p class="reveal" style="max-width:62ch; margin-bottom:32px;">The final configuration shows the four Space Crusader habitation arms extending symmetrically from the central hub, each carrying its paired ICELSS greenhouse ring. The large solar array truss provides power for the full station. The microgravity core at the hub centre allows zero-g research and crew transit.</p>
+        <img class="img-full reveal" src="../assets/p/axo.png"
+             alt="Promethea Station — full top-down axonometric" loading="lazy">
+        <p class="label reveal" style="margin-top:14px; color:var(--vmuted);">Final configuration — top-down axonometric</p>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════
+         04 — STATION LAYOUT
+    ════════════════════════════════════════════════════ -->
+    <section class="section">
+      <div class="container">
+        <div class="sec-head reveal"><span class="label">04</span><h2>Station Layout</h2></div>
+        <p class="reveal" style="max-width:62ch; margin-bottom:48px;">Three distinct zones serve different gravity levels and user groups. The outer ring of Space Crusader modules provides Martian gravity for permanent crew. The commercial ring houses tourist accommodation. A tethered microgravity core at the hub centre enables zero-g science and medical operations.</p>
+      </div>
+
+      <!-- Martian gravity plan -->
+      <div class="container">
+        <div class="plan-full reveal" style="margin-bottom:2px;">
+          <img class="drawing" src="../assets/p/plan_martian.png"
+               alt="Full station plan — Martian gravity ring" loading="lazy">
+          <p class="label">Martian gravity ring — complete station plan</p>
+        </div>
+
+        <!-- Horizontal research plan -->
+        <div class="plan-full reveal" style="border-top:none;">
+          <img class="drawing" src="../assets/p/plan_horizontal.png"
+               alt="Research and microgravity — horizontal plan" loading="lazy">
+          <p class="label">Permanent research + microgravity — horizontal section</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Microgravity plan — void -->
+    <div class="void">
+      <div class="container">
+        <p class="label reveal" style="margin-bottom:20px;">Microgravity zone — tether hub and experiment bays</p>
+        <img class="img-full reveal" src="../assets/p/plan_microgravity.png"
+             alt="Microgravity floor plan" loading="lazy">
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════════
+         05 — SPACE CRUSADER MODULE
+    ════════════════════════════════════════════════════ -->
+    <section class="section">
+      <div class="container">
+        <div class="sec-head reveal"><span class="label">05</span><h2>Space Crusader Module</h2></div>
+        <div class="split reveal" style="margin-bottom:56px;">
+          <div>
+            <p style="margin-bottom:1.2em;">The Space Crusader is the primary habitation unit. Four modules extend from the central hub in an X configuration and rotate together at 5.6 rpm, generating 0.38g at the habitat floor through centrifugal force. Each module accommodates three occupants across sleeping, working, and communal zones.</p>
+          </div>
+          <div>
+            <p>The module's cross-shaped plan allows four equal arms to extend radially, creating a balanced rotation system. Inflation panels expand the habitable volume after deployment. A rigid central spine provides structural continuity and carries the tether attachment points that connect to the microgravity hub.</p>
+          </div>
+        </div>
+
+        <!-- Axo drawing — centred, clean -->
+        <div class="reveal" style="max-width:600px; margin:0 auto 52px;">
+          <img class="drawing" src="../assets/p/crusader_axo.png"
+               alt="Space Crusader — axonometric view" loading="lazy"
+               style="width:100%; height:auto;">
+          <p class="label" style="text-align:center; margin-top:12px;">Space Crusader — axonometric</p>
+        </div>
+
+        <!-- Plans: frontal + commercial -->
+        <div class="img-pair reveal">
+          <div class="plan-cell">
+            <img class="drawing" src="../assets/p/crusader_front.png"
+                 alt="Space Crusader — frontal view, cross configuration" loading="lazy">
+            <p class="label">Frontal view — cross configuration</p>
+          </div>
+          <div class="plan-cell">
+            <img class="drawing" src="../assets/p/plan_commercial.png"
+                 alt="Commercial module — floor plan" loading="lazy">
+            <p class="label">Commercial module — floor plan</p>
+          </div>
+        </div>
+
+        <!-- Plans: research + floating -->
+        <div class="img-pair reveal" style="margin-top:2px;">
+          <div class="plan-cell">
+            <img class="drawing" src="../assets/p/plan_research.png"
+                 alt="Research module — floor plan" loading="lazy">
+            <p class="label">Research module — floor plan</p>
+          </div>
+          <div class="plan-cell">
+            <img class="drawing" src="../assets/p/floating.png"
+                 alt="Human scale — crew in microgravity" loading="lazy">
+            <p class="label">Human scale — crew in microgravity</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         06 — ICELSS
+    ════════════════════════════════════════════════════ -->
+    <section class="section">
+      <div class="container">
+        <div class="sec-head reveal"><span class="label">06</span><h2>ICELSS — Closed-Loop Life Support</h2></div>
+        <div class="split reveal" style="margin-bottom:52px;">
+          <div>
+            <p style="margin-bottom:1.2em;">Each Space Crusader arm is paired with a toroidal ICELSS unit — an Integrated Closed-Loop Ecological Life Support System. The unit completes the biological loop: plants absorb the CO₂ and water produced by the crew, return oxygen, and yield food. Waste is composted back into the growing medium.</p>
+          </div>
+          <div>
+            <p>The toroidal geometry creates a continuous growing surface arranged around the habitat arm's outer ring. 40 m² of cultivated area per person is achieved through aeroponics for rapid-cycle crops and felt/NFT beds for staples. Autonomous robotic harvesting operates on a 24-hour cycle independent of crew schedules.</p>
+          </div>
+        </div>
+
+        <!-- Greenhouse renders — square 1:1 cells -->
+        <div class="img-pair reveal" style="margin-bottom:2px;">
+          <div class="render-cell">
+            <img src="../assets/p/greenhouse_section.png"
+                 alt="ICELSS — cross-section render showing interior" loading="lazy">
+          </div>
+          <div class="render-cell">
+            <img src="../assets/p/greenhouse_plan.png"
+                 alt="ICELSS — plan view render" loading="lazy">
+          </div>
+        </div>
+
+        <!-- CELSS cycle diagram + spec table -->
+        <div class="split reveal" style="margin-top:52px; align-items:start;">
+          <div>
+            <h4 style="margin-bottom:20px;">System Specification</h4>
+            <table class="data-table">
+              <tr><td>Daily caloric target</td><td>2,500 kcal / person</td></tr>
+              <tr><td>Coverage per unit</td><td>4 crew members</td></tr>
+              <tr><td>Aeroponic area</td><td>1.341 m² / unit</td></tr>
+              <tr><td>Felt / NFT area</td><td>4.421 m² / unit</td></tr>
+              <tr><td>Total per person</td><td>40 m²</td></tr>
+              <tr><td>Harvesting</td><td>Autonomous robotic — 24 h cycle</td></tr>
+              <tr><td>Primary crops</td><td>Wheat, soy, potato, lettuce, tomato</td></tr>
+            </table>
+          </div>
+          <div>
+            <h4 style="margin-bottom:20px;">Bioregenerative Cycle</h4>
+            <div class="diagram-box">
+              <img src="../assets/p/celss.png" alt="Bioregenerative CELSS diagram" loading="lazy">
+              <div class="diagram-box__cap">O₂ / CO₂ / biomass flux — fully closed loop at 40 m² / person</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Crop table — full image -->
+        <div style="margin-top:48px;">
+          <h4 class="reveal" style="margin-bottom:16px;">Crop Selection &amp; Yield Data</h4>
+          <div class="crop-table-wrap reveal">
+            <img src="../assets/p/crop_table.jpg"
+                 alt="Greenhouse crop selection table — species, yield, growth rate" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         07 — INTERIOR & HUMAN SCALE
+    ════════════════════════════════════════════════════ -->
+    <section class="section">
+      <div class="container">
+        <div class="sec-head reveal"><span class="label">07</span><h2>Interior &amp; Human Scale</h2></div>
+        <p class="reveal" style="max-width:64ch; margin-bottom:48px;">Living at 0.38g in a rotating habitat is unlike any prior human spaceflight experience. Gravity is present but light — enough for normal posture, sleep, and eating, but the body reads every gesture differently. The interior is designed to make this condition legible: curved floors follow the rotation radius, sightlines extend into the greenhouse, and natural light cycles are simulated to support circadian rhythm.</p>
+      </div>
+
+      <!-- Comic grid: 5 images -->
+      <!-- Row 1: image 2 (portrait, astronaut) + image 1 (station exterior) -->
+      <!-- Row 2: image 4 (full-width interior, curved room) -->
+      <!-- Row 3: image 3 (floating in module) + midterm (dark concept) -->
+      <div class="comic-grid reveal">
+        <div class="comic-cell">
+          <img src="../assets/p/comic_2.jpg" alt="Astronaut portrait — Space Crusader crew" loading="lazy">
+        </div>
+        <div class="comic-cell">
+          <img src="../assets/p/comic_1.jpg" alt="Exterior view — astronaut approaching Promethea Station" loading="lazy">
+        </div>
+        <div class="comic-cell comic-cell--full">
+          <img src="../assets/p/comic_4.jpg" alt="Interior — curved habitat floor at 0.38g" loading="lazy">
+        </div>
+        <div class="comic-cell comic-cell--line">
+          <img src="../assets/p/interior.jpg" alt="Crew member floating through module corridor" loading="lazy">
+        </div>
+        <div class="comic-cell comic-cell--dark">
+          <img src="../assets/p/comic.jpg" alt="Early concept — station and astronaut in orbit" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         08 — TECHNICAL DATA
+    ════════════════════════════════════════════════════ -->
+    <section class="section">
+      <div class="container">
+        <div class="sec-head reveal"><span class="label">08</span><h2>Technical Data</h2></div>
+
+        <div class="split reveal" style="margin-bottom:48px;">
+          <div>
+            <h4 style="margin-bottom:20px;">Artificial Gravity Parameters</h4>
+            <table class="data-table">
+              <tr><td>Rotation radius (R)</td><td>10.8 m</td></tr>
+              <tr><td>Angular velocity (Ω)</td><td>5.609 rpm</td></tr>
+              <tr><td>Tangential velocity (V)</td><td>6.344 m/s</td></tr>
+              <tr><td>Centripetal acceleration</td><td>0.38 g — Martian equivalent</td></tr>
+              <tr><td>Coriolis threshold</td><td>Within accepted comfort limits</td></tr>
+            </table>
+          </div>
+          <div>
+            <h4 style="margin-bottom:20px;">Wall Structure — Whipple Shield</h4>
+            <table class="data-table">
+              <tr><td>Outer bumper</td><td>Al6061-T6 · 2.032 mm</td></tr>
+              <tr><td>Intermediate layers</td><td>6× Nextel AF62 + 6× Kevlar 120</td></tr>
+              <tr><td>Rear wall</td><td>Al2219-T87 · 4.826 mm</td></tr>
+              <tr><td>Total shield depth</td><td>4.5" front to back</td></tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="diagram-row reveal">
+          <div class="diagram-box">
+            <img src="../assets/p/spincalc.png" alt="SpinCalc — gravity parameters at R=10.8m" loading="lazy">
+            <div class="diagram-box__cap">SpinCalc — R = 10.8 m · Ω = 5.609 rpm · A = 0.38 g</div>
+          </div>
+          <div class="diagram-box">
+            <img src="../assets/p/celss.png" alt="CELSS bioregenerative cycle" loading="lazy">
+            <div class="diagram-box__cap">CELSS — closed-loop gas and biomass exchange per person</div>
+          </div>
+        </div>
+
+        <h2 class="reveal" style="margin-top:72px; margin-bottom:28px;">Construction Details</h2>
+        <p class="reveal" style="max-width:62ch; margin-bottom:40px;">Annotated technical drawings of the Space Crusader module structure and the tether-bearing connection to the microgravity hub. The rotating joint transmits no torque while allowing the habitation ring to spin relative to the fixed central module.</p>
+
+        <!-- Detail 1: wide horizontal section -->
+        <div class="detail-wrap reveal">
+          <img src="../assets/p/detail_1.jpg"
+               alt="Space Crusader — annotated horizontal section, rotating component axis" loading="lazy">
+          <span class="label">Space Crusader — horizontal section through rotating component axis</span>
+        </div>
+
+        <!-- Detail 2: tether & connection mechanism -->
+        <div class="detail-wrap reveal">
+          <img src="../assets/p/detail_2.jpg"
+               alt="Rotating joint — tether mechanism, Whipple shield, and bearing detail" loading="lazy">
+          <span class="label">Rotating joint — tether deployment, ceramic bearings, and Whipple shield wall structure</span>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════
+         09 — FULL PROJECT OVERVIEW (void)
+    ════════════════════════════════════════════════════ -->
+    <div class="void">
+      <div class="container">
+        <div class="sec-head reveal"><span class="label" style="color:var(--vmuted);">09</span><h2>Full Project Overview</h2></div>
+        <p class="label reveal" style="margin-bottom:28px; color:var(--vmuted);">Bayraktar · Egg · Pejic — HB2 Orbital Shift booklet chapter</p>
+        <div class="booklet reveal">
+          <iframe src="../booklet.pdf" title="Promethea Station — Full Project Booklet">
+            <p style="color:var(--vtext); padding:40px;">
+              PDF cannot be displayed inline.
+              <a href="../booklet.pdf" style="color:#aaa; border-bottom:1px solid #555;">Download PDF</a>
+            </p>
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer style="background:var(--void); border-color:#1e1e1e;">
+    <span class="label" style="color:var(--vmuted);">© 2025 Luka Pejic</span>
+    <a href="../index.html#work" class="label" style="color:var(--vmuted); transition:color .2s;"
+       onmouseenter="this.style.color='var(--vtext)'" onmouseleave="this.style.color='var(--vmuted)'">← All Projects</a>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>

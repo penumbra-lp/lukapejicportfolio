@@ -1,0 +1,111 @@
+%!Adobe-FontList 1.25
+%Locale:0x809
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Luka\Desktop\UNI\10. Sem\orbital shift\Booklet\Template_OrbitalShift Folder\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1752509226
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ReplicaStd-Light
+FamilyName:Replica Std
+StyleName:Light
+FullName:Replica Std Light
+MenuName:Replica Std Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Luka\Desktop\UNI\10. Sem\orbital shift\Booklet\Template_OrbitalShift Folder\Document fonts\ReplicaStdLight.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:85956
+FileModTime:1752509226
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Replica Std Light
+NameArray:0,Win,1,Replica Std Light
+NameArray:0,Win,16,Replica Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ReplicaStd-LightItalic
+FamilyName:Replica Std
+StyleName:Light Italic
+FullName:Replica Std Light Italic
+MenuName:Replica Std Light Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Luka\Desktop\UNI\10. Sem\orbital shift\Booklet\Template_OrbitalShift Folder\Document fonts\ReplicaStdLightItalic.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:86400
+FileModTime:1752509226
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Replica Std Light Italic
+NameArray:0,Win,1,Replica Std Light Italic
+NameArray:0,Win,16,Replica Std
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:ReplicaStd-Regular
+FamilyName:Replica Std
+StyleName:Regular
+FullName:Replica Std Regular
+MenuName:Replica Std Regular
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Luka\Desktop\UNI\10. Sem\orbital shift\Booklet\Template_OrbitalShift Folder\Document fonts\ReplicaStdRegular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:84712
+FileModTime:1752509226
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Replica Std Regular
+NameArray:0,Win,1,Replica Std Regular
+NameArray:0,Win,16,Replica Std
+%EndFont
+

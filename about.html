@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — Luka Pejic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav scrolled" id="nav">
+    <a href="index.html" class="nav__logo"><img src="assets/logo.png" alt="Luka Pejic"></a>
+    <ul class="nav__links">
+      <li><a href="index.html#work">Projects</a></li>
+      <li><a href="about.html" class="active">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav__overlay" role="dialog" aria-modal="true">
+    <a href="index.html#work">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+    <section class="section" style="padding-top: calc(var(--nav) + 64px);">
+      <div class="container">
+
+        <div class="about-grid">
+
+          <!-- ── SIDEBAR ── -->
+          <aside class="about-sidebar reveal">
+
+            <!-- Headshot -->
+            <div class="about-photo">
+              <img src="assets/headshot.jpg" alt="Luka Pejic">
+            </div>
+
+            <h4 style="margin-bottom:16px; margin-top:36px;">Fields of Interest</h4>
+            <ul style="display:flex; flex-direction:column; gap:10px; margin-bottom:40px;">
+              <li class="label">Space Architecture</li>
+              <li class="label">Closed Ecological Systems</li>
+              <li class="label">Artificial Gravity Habitats</li>
+              <li class="label">Long-Duration Spaceflight</li>
+              <li class="label">Modular Space Structures</li>
+              <li class="label">Human-Centred Design</li>
+            </ul>
+
+            <h4 style="margin-bottom:8px;">Tools &amp; Skills</h4>
+            <div class="tag-list" style="margin-bottom:40px;">
+              <span class="tag">Rhino 3D</span>
+              <span class="tag">AutoCAD</span>
+              <span class="tag">Grasshopper</span>
+              <span class="tag">InDesign</span>
+              <span class="tag">Illustrator</span>
+              <span class="tag">Photoshop</span>
+              <span class="tag">Physical Modelling</span>
+              <span class="tag">Technical Drawing</span>
+              <span class="tag">Scientific Research</span>
+            </div>
+
+            <a href="assets/cv.pdf" class="cv-link" target="_blank" rel="noopener noreferrer">
+              Download CV <span class="cv-link__arrow">↓</span>
+            </a>
+
+          </aside>
+
+          <!-- ── MAIN CONTENT ── -->
+          <div>
+            <p class="label reveal" style="margin-bottom:16px;">About</p>
+            <h1 class="reveal" style="margin-bottom:28px;">Luka Pejic</h1>
+
+            <div class="reveal" style="margin-bottom:64px;">
+              <p style="font-size:clamp(1rem,1.6vw,1.15rem); line-height:1.8; margin-bottom:1.2em;">
+                Hi, my name is Luka!
+              </p>
+              <p style="font-size:clamp(1rem,1.6vw,1.15rem); line-height:1.8; margin-bottom:1.2em;">
+                I'm currently a 3rd-year Master's student at the Technical University of Vienna.
+              </p>
+              <p style="font-size:clamp(0.95rem,1.5vw,1.05rem); line-height:1.8; margin-bottom:1.2em; max-width:56ch;">
+                My design approach is based on how evidence-based reasoning and architectural thinking can merge into technically grounded and human-centred concepts. Research, data, or necessity back every design decision in my projects.
+              </p>
+              <p style="font-size:clamp(0.95rem,1.5vw,1.05rem); line-height:1.8; max-width:56ch;">
+                Outside of work, I'm interested in mathematics, physics, biology, chemistry, and human-factor- and long-term design strategies — subjects that help bridge disciplines and turn theoretical into practical.
+              </p>
+            </div>
+
+            <h2 class="reveal" style="margin-bottom:8px;">Education</h2>
+            <div style="margin-top:8px;">
+              <div class="timeline-item reveal">
+                <div class="timeline-item__year">2024–<br>present</div>
+                <div>
+                  <h4 style="margin-bottom:8px;">Master of Architecture</h4>
+                  <p>Technical University of Vienna — space architecture specialisation. Long-duration habitat design, closed ecological systems, orbital structures.</p>
+                </div>
+              </div>
+              <div class="timeline-item reveal">
+                <div class="timeline-item__year">2021–<br>2024</div>
+                <div>
+                  <h4 style="margin-bottom:8px;">Bachelor of Architecture</h4>
+                  <p>Foundations in architectural design, structures, environmental systems, and the history of architecture.</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="label">© 2025 Luka Pejic</span>
+    <span class="label">Space Architecture</span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

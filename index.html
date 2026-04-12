@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luka Pejic — Space Architecture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav" id="nav">
+    <a href="index.html" class="nav__logo"><img src="assets/logo.png" alt="Luka Pejic"></a>
+    <ul class="nav__links">
+      <li><a href="index.html#work">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav__overlay" role="dialog" aria-modal="true">
+    <a href="index.html#work">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <section class="hero hero--space">
+    <canvas class="starfield" id="starfield" aria-hidden="true"></canvas>
+    <img class="hero__logo" src="assets/logo.png" alt="LP">
+    <div class="hero__rule"></div>
+    <h1 class="hero__name reveal">Luka Pejic</h1>
+    <p class="hero__sub reveal">Space Architecture &nbsp;·&nbsp; Master's Student</p>
+    <span class="hero__scroll" aria-hidden="true">Scroll</span>
+  </section>
+
+  <div id="work">
+    <div class="work-label reveal">
+      <p class="label">Selected Work</p>
+    </div>
+    <a class="card reveal" href="projects/promethea.html">
+      <div class="card__img">
+        <img src="assets/p/hero.png" alt="Promethea Station" loading="lazy">
+      </div>
+      <div class="card__body">
+        <div>
+          <p class="card__num">01 &nbsp;·&nbsp; Space Architecture</p>
+          <h2 class="card__title">Promethea<br>Station</h2>
+          <p class="card__desc">A next-generation modular orbital station integrating artificial Martian gravity and a closed-loop biological life support system — designed as a successor to the ISS.</p>
+        </div>
+        <span class="card__cta">View Project</span>
+      </div>
+    </a>
+  </div>
+
+  <footer>
+    <span class="label">© 2025 Luka Pejic</span>
+    <span class="label">Space Architecture</span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

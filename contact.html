@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Luka Pejic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <nav class="nav scrolled" id="nav">
+    <a href="index.html" class="nav__logo"><img src="assets/logo.png" alt="Luka Pejic"></a>
+    <ul class="nav__links">
+      <li><a href="index.html#work">Projects</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav__overlay" role="dialog" aria-modal="true">
+    <a href="index.html#work">Projects</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+  </div>
+
+  <main>
+    <section class="section" style="padding-top: calc(var(--nav) + 64px); min-height: calc(100dvh - var(--nav));">
+      <div class="container">
+        <div class="contact-grid">
+
+          <div>
+            <p class="label reveal" style="margin-bottom:16px;">Contact</p>
+            <h1 class="reveal" style="margin-bottom:24px;">Get in<br>Touch</h1>
+            <p class="reveal" style="max-width:34ch;">
+              Open to collaborations, research discussions, and opportunities in space architecture and habitat design.
+            </p>
+          </div>
+
+          <div style="padding-top:80px;">
+            <a href="mailto:luka.pejic@example.com" class="contact-link reveal">
+              <span>Email</span><span class="contact-link__arrow">→</span>
+            </a>
+            <a href="https://www.linkedin.com/in/lukapejic" target="_blank" rel="noopener noreferrer" class="contact-link reveal">
+              <span>LinkedIn</span><span class="contact-link__arrow">→</span>
+            </a>
+            <a href="https://www.instagram.com/lukapejic" target="_blank" rel="noopener noreferrer" class="contact-link reveal">
+              <span>Instagram</span><span class="contact-link__arrow">→</span>
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="label">© 2025 Luka Pejic</span>
+    <span class="label">Space Architecture</span>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

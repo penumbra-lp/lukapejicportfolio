@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/Luka/Desktop/UNI/10. Sem/orbital shift/Booklet - shorter/Illustrations/Launch phases/**)",
+      "Read(//c/Users/Luka/Desktop/UNI/10. Sem/orbital shift/Booklet - shorter/Plans/**)",
+      "Read(//c/Users/Luka/Desktop/UNI/10. Sem/orbital shift/Booklet - shorter/Illustrations/**)"
+    ]
+  }
+}
