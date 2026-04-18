@@ -225,13 +225,20 @@
       <div class="container">
         <div class="sec-head reveal"><span class="label" style="color:var(--vmuted);">05</span><h2>Full Project Overview</h2></div>
         <p class="label reveal" style="margin-bottom:28px; color:var(--vmuted);">Eyes of Eden — Complete Documentation & Design Development</p>
-        <div class="booklet reveal">
-          <iframe src="../assets/eoe/project.pdf" title="Eyes of Eden — Full Project Documentation">
-            <p style="color:var(--vtext); padding:40px;">
-              PDF cannot be displayed inline.
-              <a href="../assets/eoe/project.pdf" style="color:#aaa; border-bottom:1px solid #555;">Download PDF</a>
-            </p>
-          </iframe>
+        <div class="pdf-viewer reveal">
+          <div class="pdf-viewer__desktop">
+            <iframe src="../assets/eoe/project.pdf" title="Eyes of Eden — Full Project Documentation"></iframe>
+          </div>
+          <div class="pdf-viewer__mobile">
+            <div class="pdf-mobile-card">
+              <span class="pdf-mobile-card__icon">PDF Documentation</span>
+              <p class="pdf-mobile-card__title">Eyes of Eden — Complete Design Documentation</p>
+              <a href="../assets/eoe/project.pdf" target="_blank" rel="noopener noreferrer" class="pdf-open-btn">Open PDF</a>
+            </div>
+          </div>
+          <div class="pdf-download">
+            <a href="../assets/eoe/project.pdf" download class="pdf-download-btn">↓ Download PDF</a>
+          </div>
         </div>
       </div>
     </div>

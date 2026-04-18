@@ -396,13 +396,20 @@
       <div class="container">
         <div class="sec-head reveal"><span class="label" style="color:var(--vmuted);">09</span><h2>Full Project Overview</h2></div>
         <p class="label reveal" style="margin-bottom:28px; color:var(--vmuted);">Bayraktar · Egg · Pejic — HB2 Orbital Shift booklet chapter</p>
-        <div class="booklet reveal">
-          <iframe src="../booklet.pdf" title="Promethea Station — Full Project Booklet">
-            <p style="color:var(--vtext); padding:40px;">
-              PDF cannot be displayed inline.
-              <a href="../booklet.pdf" style="color:#aaa; border-bottom:1px solid #555;">Download PDF</a>
-            </p>
-          </iframe>
+        <div class="pdf-viewer reveal">
+          <div class="pdf-viewer__desktop">
+            <iframe src="../booklet.pdf" title="Promethea Station — Full Project Booklet"></iframe>
+          </div>
+          <div class="pdf-viewer__mobile">
+            <div class="pdf-mobile-card">
+              <span class="pdf-mobile-card__icon">PDF Booklet</span>
+              <p class="pdf-mobile-card__title">Promethea Station — Full Project Booklet</p>
+              <a href="../booklet.pdf" target="_blank" rel="noopener noreferrer" class="pdf-open-btn">Open PDF</a>
+            </div>
+          </div>
+          <div class="pdf-download">
+            <a href="../booklet.pdf" download class="pdf-download-btn">↓ Download PDF</a>
+          </div>
         </div>
       </div>
     </div>
