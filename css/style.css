@@ -166,6 +166,15 @@ p  { color: var(--muted); font-size: 0.95rem; line-height: 1.75; }
 }
 .hero__logo { width: 72px; margin: 0 auto 28px; }
 
+@keyframes spin-slow {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+.spin-slow {
+  animation: spin-slow 11s linear infinite;
+  transform-origin: center;
+}
+
 @keyframes logo-enter {
   from { opacity: 0; transform: scale(0.68) rotate(-18deg); }
   to   { opacity: 1; transform: scale(1)    rotate(0deg);   }
@@ -330,6 +339,14 @@ p  { color: var(--muted); font-size: 0.95rem; line-height: 1.75; }
   transform: translateX(3px);
   border-bottom-color: #000;
 }
+
+/* Research card — text only, no image panel */
+.card--research { grid-template-columns: 1fr; }
+.card--research .card__body { padding: 44px 56px; min-height: 200px; }
+.card--research .card__desc { max-width: 60ch; }
+
+/* Research section label */
+.research-label { padding: 88px var(--pad) 44px; max-width: var(--max); margin: 0 auto; }
 
 /* =============================================================
    FOOTER
@@ -775,6 +792,8 @@ footer {
 
   /* Landing card */
   .card { grid-template-columns: 1fr; width: calc(100% - 40px); }
+  .card--research .card__body { padding: 32px 28px; }
+  .research-label { padding: 64px var(--pad) 32px; }
   .card__img   { aspect-ratio: 16/9; }
   .card__body  { padding: 32px 28px; }
   .work-label  { padding: 64px var(--pad) 32px; }

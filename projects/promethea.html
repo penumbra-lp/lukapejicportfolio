@@ -15,6 +15,7 @@
     <a href="../index.html" class="nav__logo"><img src="../assets/logo.png" alt="Luka Pejic"></a>
     <ul class="nav__links">
       <li><a href="../index.html#work" class="active">Projects</a></li>
+      <li><a href="../index.html#research">Research</a></li>
       <li><a href="../about.html">About</a></li>
       <li><a href="../contact.html">Contact</a></li>
     </ul>
@@ -22,6 +23,7 @@
   </nav>
   <div class="nav__overlay" role="dialog" aria-modal="true">
     <a href="../index.html#work">Projects</a>
+    <a href="../index.html#research">Research</a>
     <a href="../about.html">About</a>
     <a href="../contact.html">Contact</a>
   </div>
@@ -145,7 +147,7 @@
     <div class="void" style="padding-top:0;">
       <div class="container" style="padding-top:64px;">
         <div class="sec-head reveal"><span class="label" style="color:var(--vmuted);">03</span><h2>Station Overview</h2></div>
-        <p class="reveal" style="max-width:62ch; margin-bottom:32px;">The final configuration shows the four Space Crusader habitation arms extending symmetrically from the central hub, each carrying its paired ICELSS greenhouse ring. The large solar array truss provides power for the full station. The microgravity core at the hub centre allows zero-g research and crew transit.</p>
+        <p class="reveal" style="max-width:62ch; margin-bottom:32px;">The final configuration shows the four Space Crusader habitation arms extending symmetrically from the central hub. The ICELSS modules are separate inflatable modules connected to the microgravity backbone, not paired directly with individual Space Crusader arms. The large solar array truss provides power for the full station. The microgravity core at the hub centre allows zero-g research and crew transit.</p>
         <img class="img-full reveal" src="../assets/p/axo.png"
              alt="Promethea Station — full top-down axonometric" loading="lazy">
         <p class="label reveal" style="margin-top:14px; color:var(--vmuted);">Final configuration — top-down axonometric</p>
@@ -195,7 +197,7 @@
         <div class="sec-head reveal"><span class="label">05</span><h2>Space Crusader Module</h2></div>
         <div class="split reveal" style="margin-bottom:56px;">
           <div>
-            <p style="margin-bottom:1.2em;">The Space Crusader is the primary habitation unit. Four modules extend from the central hub in an X configuration and rotate together at 5.6 rpm, generating 0.38g at the habitat floor through centrifugal force. Each module accommodates three occupants across sleeping, working, and communal zones.</p>
+            <p style="margin-bottom:1.2em;">The Space Crusader is the primary habitation unit. Four modules extend from the central hub in an X configuration and rotate together at 5.6 rpm, generating 0.38g at the habitat floor through centrifugal force. The station accommodates 12 individuals total across 4 modules — 2 permanent crew modules and 2 commercial/tourist modules, with 3 occupants per module.</p>
           </div>
           <div>
             <p>The module's cross-shaped plan allows four equal arms to extend radially, creating a balanced rotation system. Inflation panels expand the habitable volume after deployment. A rigid central spine provides structural continuity and carries the tether attachment points that connect to the microgravity hub.</p>
@@ -203,38 +205,32 @@
         </div>
 
         <!-- Axo drawing — centred, clean -->
-        <div class="reveal" style="max-width:600px; margin:0 auto 52px;">
+        <div class="reveal" style="max-width:600px; margin:0 auto 16px;">
           <img class="drawing" src="../assets/p/crusader_axo.png"
                alt="Space Crusader — axonometric view" loading="lazy"
                style="width:100%; height:auto;">
           <p class="label" style="text-align:center; margin-top:12px;">Space Crusader — axonometric</p>
         </div>
 
-        <!-- Plans: frontal + commercial -->
+        <!-- Frontal view — rotating -->
+        <div class="reveal" style="max-width:600px; margin:0 auto 52px;">
+          <img class="drawing spin-slow" src="../assets/p/crusader_front.png"
+               alt="Space Crusader — frontal view, cross configuration" loading="lazy"
+               style="width:100%; height:auto;">
+          <p class="label" style="text-align:center; margin-top:12px;">Frontal view — cross configuration</p>
+        </div>
+
+        <!-- Plans: commercial + research -->
         <div class="img-pair reveal">
-          <div class="plan-cell">
-            <img class="drawing" src="../assets/p/crusader_front.png"
-                 alt="Space Crusader — frontal view, cross configuration" loading="lazy">
-            <p class="label">Frontal view — cross configuration</p>
-          </div>
           <div class="plan-cell">
             <img class="drawing" src="../assets/p/plan_commercial.png"
                  alt="Commercial module — floor plan" loading="lazy">
             <p class="label">Commercial module — floor plan</p>
           </div>
-        </div>
-
-        <!-- Plans: research + floating -->
-        <div class="img-pair reveal" style="margin-top:2px;">
           <div class="plan-cell">
             <img class="drawing" src="../assets/p/plan_research.png"
                  alt="Research module — floor plan" loading="lazy">
             <p class="label">Research module — floor plan</p>
-          </div>
-          <div class="plan-cell">
-            <img class="drawing" src="../assets/p/floating.png"
-                 alt="Human scale — crew in microgravity" loading="lazy">
-            <p class="label">Human scale — crew in microgravity</p>
           </div>
         </div>
       </div>
@@ -248,7 +244,7 @@
         <div class="sec-head reveal"><span class="label">06</span><h2>ICELSS — Closed-Loop Life Support</h2></div>
         <div class="split reveal" style="margin-bottom:52px;">
           <div>
-            <p style="margin-bottom:1.2em;">Each Space Crusader arm is paired with a toroidal ICELSS unit — an Integrated Closed-Loop Ecological Life Support System. The unit completes the biological loop: plants absorb the CO₂ and water produced by the crew, return oxygen, and yield food. Waste is composted back into the growing medium.</p>
+            <p style="margin-bottom:1.2em;">The ICELSS — Inflatable Controlled Ecological Life Support System — consists of separate inflatable modules connected to the microgravity backbone, not paired directly with individual Space Crusader arms. The unit completes the biological loop: plants absorb the CO₂ and water produced by the crew, return oxygen, and yield food. Waste is composted back into the growing medium.</p>
           </div>
           <div>
             <p>The toroidal geometry creates a continuous growing surface arranged around the habitat arm's outer ring. 40 m² of cultivated area per person is achieved through aeroponics for rapid-cycle crops and felt/NFT beds for staples. Autonomous robotic harvesting operates on a 24-hour cycle independent of crew schedules.</p>
@@ -274,8 +270,8 @@
             <table class="data-table">
               <tr><td>Daily caloric target</td><td>2,500 kcal / person</td></tr>
               <tr><td>Coverage per unit</td><td>4 crew members</td></tr>
-              <tr><td>Aeroponic area</td><td>1.341 m² / unit</td></tr>
-              <tr><td>Felt / NFT area</td><td>4.421 m² / unit</td></tr>
+              <tr><td>Aeroponic area</td><td>4.421 m² / unit</td></tr>
+              <tr><td>Felt / NFT area</td><td>1.341 m² / unit</td></tr>
               <tr><td>Total per person</td><td>40 m²</td></tr>
               <tr><td>Harvesting</td><td>Autonomous robotic — 24 h cycle</td></tr>
               <tr><td>Primary crops</td><td>Wheat, soy, potato, lettuce, tomato</td></tr>
@@ -345,7 +341,7 @@
             <h4 style="margin-bottom:20px;">Artificial Gravity Parameters</h4>
             <table class="data-table">
               <tr><td>Rotation radius (R)</td><td>10.8 m</td></tr>
-              <tr><td>Angular velocity (Ω)</td><td>5.609 rpm</td></tr>
+              <tr><td>Angular velocity (Ω)</td><td>5.612 rpm</td></tr>
               <tr><td>Tangential velocity (V)</td><td>6.344 m/s</td></tr>
               <tr><td>Centripetal acceleration</td><td>0.38 g — Martian equivalent</td></tr>
               <tr><td>Coriolis threshold</td><td>Within accepted comfort limits</td></tr>
@@ -365,7 +361,7 @@
         <div class="diagram-row reveal">
           <div class="diagram-box">
             <img src="../assets/p/spincalc.png" alt="SpinCalc — gravity parameters at R=10.8m" loading="lazy">
-            <div class="diagram-box__cap">SpinCalc — R = 10.8 m · Ω = 5.609 rpm · A = 0.38 g</div>
+            <div class="diagram-box__cap">SpinCalc — R = 10.8 m · Ω = 5.612 rpm · A = 0.38 g</div>
           </div>
           <div class="diagram-box">
             <img src="../assets/p/celss.png" alt="CELSS bioregenerative cycle" loading="lazy">

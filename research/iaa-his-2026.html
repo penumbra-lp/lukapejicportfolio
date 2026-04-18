@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IAA HIS 2026 — Luka Pejic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <nav class="nav scrolled" id="nav">
+    <a href="../index.html" class="nav__logo"><img src="../assets/logo.png" alt="Luka Pejic"></a>
+    <ul class="nav__links">
+      <li><a href="../index.html#work">Projects</a></li>
+      <li><a href="../index.html#research" class="active">Research</a></li>
+      <li><a href="../about.html">About</a></li>
+      <li><a href="../contact.html">Contact</a></li>
+    </ul>
+    <button class="nav__burger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="nav__overlay" role="dialog" aria-modal="true">
+    <a href="../index.html#work">Projects</a>
+    <a href="../index.html#research">Research</a>
+    <a href="../about.html">About</a>
+    <a href="../contact.html">Contact</a>
+  </div>
+
+  <main>
+    <section class="section" style="padding-top: calc(var(--nav) + 64px);">
+      <div class="container">
+
+        <a href="../index.html#research" class="back-link reveal">← Research &amp; Conferences</a>
+
+        <div class="reveal" style="margin-top:40px; margin-bottom:48px;">
+          <p class="label" style="margin-bottom:16px;">Conference Presentation · IAA · 2026</p>
+          <h1 style="margin-bottom:20px;">Promethea Station</h1>
+          <p class="label" style="color:var(--muted);">24th IAA Humans in Space Symposium</p>
+        </div>
+
+        <div class="split reveal" style="margin-bottom:52px; align-items:start;">
+          <div>
+            <p style="margin-bottom:1.2em;">A presentation of Promethea Station at the 24th IAA Humans in Space Symposium — a modular orbital platform in low Earth orbit designed to validate the two technologies most critical to long-duration human deep-space travel: artificial Martian gravity through centrifugal rotation, and a fully closed biological life support system.</p>
+            <p>The presentation covers the station's structural design, the ICELSS inflatable greenhouse modules, the artificial gravity parameters derived from SpinCalc, and the Whipple shield wall construction — developed as part of the HB2 Orbital Shift studio at TU Wien.</p>
+          </div>
+          <div>
+            <table class="data-table">
+              <tr><td>Venue</td><td>24th IAA Humans in Space Symposium</td></tr>
+              <tr><td>Year</td><td>2026</td></tr>
+              <tr><td>Author</td><td>Luka Pejic</td></tr>
+              <tr><td>Institution</td><td>Technical University of Vienna</td></tr>
+              <tr><td>Status</td><td>Accepted — presenting</td></tr>
+              <tr><td>Topic</td><td>Orbital habitat design, artificial gravity, BLSS</td></tr>
+            </table>
+          </div>
+        </div>
+
+        <div class="booklet reveal">
+          <iframe src="../assets/research/iaa_2026.pdf" title="Promethea Station — IAA HIS 2026 Presentation">
+            <p style="padding:40px;">
+              PDF cannot be displayed inline.
+              <a href="../assets/research/iaa_2026.pdf" style="border-bottom:1px solid currentColor;">Download PDF</a>
+            </p>
+          </iframe>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span class="label">© 2025 Luka Pejic</span>
+    <a href="../index.html#research" class="label" style="transition:color .2s;"
+       onmouseenter="this.style.color='var(--black)'" onmouseleave="this.style.color=''">← Research &amp; Conferences</a>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
