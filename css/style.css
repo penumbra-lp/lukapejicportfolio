@@ -20,7 +20,7 @@
    RESET
    ============================================================= */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; scroll-padding-top: 64px; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; scroll-padding-top: 64px; overflow-x: hidden; }
 body {
   background: var(--bg);
   color: var(--black);
@@ -757,6 +757,7 @@ footer {
   .about-sidebar { position: static; }
   .about-photo { aspect-ratio: 4/3; max-width: 320px; }
   .contact-grid  { grid-template-columns: 1fr; gap: 48px; }
+  .contact-grid > div:last-child { padding-top: 0 !important; }
 }
 
 /* =============================================================
@@ -834,7 +835,7 @@ footer {
   .data-table td:first-child { font-size: 0.58rem; width: 40%; }
 
   /* Sec head spacing */
-  .sec-head { margin-bottom: 32px; }
+  .sec-head { margin-bottom: 32px; flex-wrap: wrap; gap: 6px 16px; }
 }
 
 /* =============================================================
