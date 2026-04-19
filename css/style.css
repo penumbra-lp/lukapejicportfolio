@@ -813,7 +813,7 @@ footer {
 /* =============================================================
    CONTACT PAGE
    ============================================================= */
-.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; }
+.contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: center; }
 .contact-link {
   display: flex; justify-content: space-between; align-items: center;
   padding: 24px 0; border-top: 1px solid var(--border);
