@@ -843,7 +843,6 @@ footer {
   .about-sidebar { position: static; }
   .about-photo { aspect-ratio: 4/3; max-width: 320px; }
   .contact-grid  { grid-template-columns: 1fr; gap: 48px; }
-  .contact-grid > div:last-child { padding-top: 0 !important; }
 }
 
 /* =============================================================
@@ -924,6 +923,9 @@ footer {
 
   /* Sec head spacing */
   .sec-head { margin-bottom: 32px; flex-wrap: wrap; gap: 6px 16px; }
+
+  /* Blockquote (David Nixon review) */
+  blockquote { padding-left: 18px !important; }
 }
 
 /* =============================================================
